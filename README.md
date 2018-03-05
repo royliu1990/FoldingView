@@ -1,6 +1,8 @@
 # FoldingView
 A foldable view easy to use
 
+#### installation
+pod 'FoldingView'
 
 ##### Demo GIF
 
