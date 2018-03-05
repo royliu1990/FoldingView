@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36A47162EC91775F797F33A1 /* RotatedLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A470D3D475DCC481BA9430 /* RotatedLayer.swift */; };
+		36A47A4F5CC199824AAF17EA /* FoldingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A476D3055528288544FBD6 /* FoldingView.swift */; };
+		ED4BB9C2F1BE190BB493BDDC /* Pods_FoldingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7BCE74AC91C9B0952BD99C /* Pods_FoldingView.framework */; };
+		F633B7E8204B7DC9002D2D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633B7E7204B7DC9002D2D83 /* AppDelegate.swift */; };
+		F633B7EA204B7DC9002D2D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633B7E9204B7DC9002D2D83 /* ViewController.swift */; };
+		F633B7ED204B7DC9002D2D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F633B7EB204B7DC9002D2D83 /* Main.storyboard */; };
+		F633B7EF204B7DC9002D2D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F633B7EE204B7DC9002D2D83 /* Assets.xcassets */; };
+		F633B7F2204B7DC9002D2D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F633B7F0204B7DC9002D2D83 /* LaunchScreen.storyboard */; };
+		F633B7FD204B7DC9002D2D83 /* FoldingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633B7FC204B7DC9002D2D83 /* FoldingViewTests.swift */; };
+		F633B808204B7DC9002D2D83 /* FoldingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633B807204B7DC9002D2D83 /* FoldingViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F633B7F9204B7DC9002D2D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F633B7DC204B7DC9002D2D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F633B7E3204B7DC9002D2D83;
+			remoteInfo = FoldingView;
+		};
+		F633B804204B7DC9002D2D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F633B7DC204B7DC9002D2D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F633B7E3204B7DC9002D2D83;
+			remoteInfo = FoldingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094C2FFABD93C0AC1D19F995 /* Pods-FoldingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingView/Pods-FoldingView.debug.xcconfig"; sourceTree = "<group>"; };
+		0EFF6A3994019AAAAC8C8BF5 /* Pods_FoldingViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoldingViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A470D3D475DCC481BA9430 /* RotatedLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedLayer.swift; sourceTree = "<group>"; };
+		36A476D3055528288544FBD6 /* FoldingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingView.swift; sourceTree = "<group>"; };
+		ED07A5605016FDE5D8813925 /* Pods-FoldingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldingView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoldingView/Pods-FoldingView.release.xcconfig"; sourceTree = "<group>"; };
+		ED7BCE74AC91C9B0952BD99C /* Pods_FoldingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoldingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F633B7E4204B7DC9002D2D83 /* FoldingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F633B7E7204B7DC9002D2D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F633B7E9204B7DC9002D2D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F633B7EC204B7DC9002D2D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F633B7EE204B7DC9002D2D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F633B7F1204B7DC9002D2D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F633B7F3204B7DC9002D2D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F633B7F8204B7DC9002D2D83 /* FoldingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F633B7FC204B7DC9002D2D83 /* FoldingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingViewTests.swift; sourceTree = "<group>"; };
+		F633B7FE204B7DC9002D2D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F633B803204B7DC9002D2D83 /* FoldingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F633B807204B7DC9002D2D83 /* FoldingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingViewUITests.swift; sourceTree = "<group>"; };
+		F633B809204B7DC9002D2D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90DFA9E89C94FD351EB560A /* Pods_FoldingViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoldingViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F633B7E1204B7DC9002D2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4BB9C2F1BE190BB493BDDC /* Pods_FoldingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B7F5204B7DC9002D2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B800204B7DC9002D2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD476CCA2BF3E642F6FB8E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7BCE74AC91C9B0952BD99C /* Pods_FoldingView.framework */,
+				0EFF6A3994019AAAAC8C8BF5 /* Pods_FoldingViewTests.framework */,
+				F90DFA9E89C94FD351EB560A /* Pods_FoldingViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36A47C55D14A06DA1EA3A292 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				36A476D3055528288544FBD6 /* FoldingView.swift */,
+				36A470D3D475DCC481BA9430 /* RotatedLayer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B12A11487C0AD9DAD566E0BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				094C2FFABD93C0AC1D19F995 /* Pods-FoldingView.debug.xcconfig */,
+				ED07A5605016FDE5D8813925 /* Pods-FoldingView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F633B7DB204B7DC9002D2D83 = {
+			isa = PBXGroup;
+			children = (
+				F633B7E6204B7DC9002D2D83 /* FoldingView */,
+				F633B7FB204B7DC9002D2D83 /* FoldingViewTests */,
+				F633B806204B7DC9002D2D83 /* FoldingViewUITests */,
+				F633B7E5204B7DC9002D2D83 /* Products */,
+				B12A11487C0AD9DAD566E0BE /* Pods */,
+				1AD476CCA2BF3E642F6FB8E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F633B7E5204B7DC9002D2D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F633B7E4204B7DC9002D2D83 /* FoldingView.app */,
+				F633B7F8204B7DC9002D2D83 /* FoldingViewTests.xctest */,
+				F633B803204B7DC9002D2D83 /* FoldingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F633B7E6204B7DC9002D2D83 /* FoldingView */ = {
+			isa = PBXGroup;
+			children = (
+				F633B7E7204B7DC9002D2D83 /* AppDelegate.swift */,
+				F633B7E9204B7DC9002D2D83 /* ViewController.swift */,
+				F633B7EB204B7DC9002D2D83 /* Main.storyboard */,
+				F633B7EE204B7DC9002D2D83 /* Assets.xcassets */,
+				F633B7F0204B7DC9002D2D83 /* LaunchScreen.storyboard */,
+				F633B7F3204B7DC9002D2D83 /* Info.plist */,
+				36A47C55D14A06DA1EA3A292 /* Core */,
+			);
+			path = FoldingView;
+			sourceTree = "<group>";
+		};
+		F633B7FB204B7DC9002D2D83 /* FoldingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F633B7FC204B7DC9002D2D83 /* FoldingViewTests.swift */,
+				F633B7FE204B7DC9002D2D83 /* Info.plist */,
+			);
+			path = FoldingViewTests;
+			sourceTree = "<group>";
+		};
+		F633B806204B7DC9002D2D83 /* FoldingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F633B807204B7DC9002D2D83 /* FoldingViewUITests.swift */,
+				F633B809204B7DC9002D2D83 /* Info.plist */,
+			);
+			path = FoldingViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F633B7E3204B7DC9002D2D83 /* FoldingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F633B80C204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingView" */;
+			buildPhases = (
+				6753E4791345EC4B343B06B5 /* [CP] Check Pods Manifest.lock */,
+				F633B7E0204B7DC9002D2D83 /* Sources */,
+				F633B7E1204B7DC9002D2D83 /* Frameworks */,
+				F633B7E2204B7DC9002D2D83 /* Resources */,
+				3284D7DCBCD7A58098C85FE8 /* [CP] Embed Pods Frameworks */,
+				67E0D90DB5203500065288AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingView;
+			productName = FoldingView;
+			productReference = F633B7E4204B7DC9002D2D83 /* FoldingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F633B7F7204B7DC9002D2D83 /* FoldingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F633B80F204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingViewTests" */;
+			buildPhases = (
+				F633B7F4204B7DC9002D2D83 /* Sources */,
+				F633B7F5204B7DC9002D2D83 /* Frameworks */,
+				F633B7F6204B7DC9002D2D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F633B7FA204B7DC9002D2D83 /* PBXTargetDependency */,
+			);
+			name = FoldingViewTests;
+			productName = FoldingViewTests;
+			productReference = F633B7F8204B7DC9002D2D83 /* FoldingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F633B802204B7DC9002D2D83 /* FoldingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F633B812204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingViewUITests" */;
+			buildPhases = (
+				F633B7FF204B7DC9002D2D83 /* Sources */,
+				F633B800204B7DC9002D2D83 /* Frameworks */,
+				F633B801204B7DC9002D2D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F633B805204B7DC9002D2D83 /* PBXTargetDependency */,
+			);
+			name = FoldingViewUITests;
+			productName = FoldingViewUITests;
+			productReference = F633B803204B7DC9002D2D83 /* FoldingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F633B7DC204B7DC9002D2D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = royliu1990;
+				TargetAttributes = {
+					F633B7E3204B7DC9002D2D83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F633B7F7204B7DC9002D2D83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F633B7E3204B7DC9002D2D83;
+					};
+					F633B802204B7DC9002D2D83 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F633B7E3204B7DC9002D2D83;
+					};
+				};
+			};
+			buildConfigurationList = F633B7DF204B7DC9002D2D83 /* Build configuration list for PBXProject "FoldingView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F633B7DB204B7DC9002D2D83;
+			productRefGroup = F633B7E5204B7DC9002D2D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F633B7E3204B7DC9002D2D83 /* FoldingView */,
+				F633B7F7204B7DC9002D2D83 /* FoldingViewTests */,
+				F633B802204B7DC9002D2D83 /* FoldingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F633B7E2204B7DC9002D2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F633B7F2204B7DC9002D2D83 /* LaunchScreen.storyboard in Resources */,
+				F633B7EF204B7DC9002D2D83 /* Assets.xcassets in Resources */,
+				F633B7ED204B7DC9002D2D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B7F6204B7DC9002D2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B801204B7DC9002D2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3284D7DCBCD7A58098C85FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoldingView/Pods-FoldingView-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-13/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldingView/Pods-FoldingView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6753E4791345EC4B343B06B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoldingView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E0D90DB5203500065288AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldingView/Pods-FoldingView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F633B7E0204B7DC9002D2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F633B7EA204B7DC9002D2D83 /* ViewController.swift in Sources */,
+				F633B7E8204B7DC9002D2D83 /* AppDelegate.swift in Sources */,
+				36A47A4F5CC199824AAF17EA /* FoldingView.swift in Sources */,
+				36A47162EC91775F797F33A1 /* RotatedLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B7F4204B7DC9002D2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F633B7FD204B7DC9002D2D83 /* FoldingViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633B7FF204B7DC9002D2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F633B808204B7DC9002D2D83 /* FoldingViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F633B7FA204B7DC9002D2D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F633B7E3204B7DC9002D2D83 /* FoldingView */;
+			targetProxy = F633B7F9204B7DC9002D2D83 /* PBXContainerItemProxy */;
+		};
+		F633B805204B7DC9002D2D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F633B7E3204B7DC9002D2D83 /* FoldingView */;
+			targetProxy = F633B804204B7DC9002D2D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F633B7EB204B7DC9002D2D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F633B7EC204B7DC9002D2D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F633B7F0204B7DC9002D2D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F633B7F1204B7DC9002D2D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F633B80A204B7DC9002D2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F633B80B204B7DC9002D2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F633B80D204B7DC9002D2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094C2FFABD93C0AC1D19F995 /* Pods-FoldingView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHV8F4A6ZV;
+				INFOPLIST_FILE = FoldingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F633B80E204B7DC9002D2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED07A5605016FDE5D8813925 /* Pods-FoldingView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHV8F4A6ZV;
+				INFOPLIST_FILE = FoldingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F633B810204B7DC9002D2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoldingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldingView.app/FoldingView";
+			};
+			name = Debug;
+		};
+		F633B811204B7DC9002D2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoldingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldingView.app/FoldingView";
+			};
+			name = Release;
+		};
+		F633B813204B7DC9002D2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoldingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldingView;
+			};
+			name = Debug;
+		};
+		F633B814204B7DC9002D2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoldingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = royliu1990.FoldingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoldingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F633B7DF204B7DC9002D2D83 /* Build configuration list for PBXProject "FoldingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F633B80A204B7DC9002D2D83 /* Debug */,
+				F633B80B204B7DC9002D2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F633B80C204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F633B80D204B7DC9002D2D83 /* Debug */,
+				F633B80E204B7DC9002D2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F633B80F204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F633B810204B7DC9002D2D83 /* Debug */,
+				F633B811204B7DC9002D2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F633B812204B7DC9002D2D83 /* Build configuration list for PBXNativeTarget "FoldingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F633B813204B7DC9002D2D83 /* Debug */,
+				F633B814204B7DC9002D2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F633B7DC204B7DC9002D2D83 /* Project object */;
+}
