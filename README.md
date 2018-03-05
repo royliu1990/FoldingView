@@ -4,4 +4,4 @@ A foldable view easy to use
 
 ##### Demo GIF
 
-![image]
+![image](https://github.com/royliu1990/FoldingView/blob/master/demo.gif)
