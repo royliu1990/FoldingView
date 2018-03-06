@@ -13,17 +13,13 @@ import SnapKit
 class ViewController: UIViewController,CAAnimationDelegate {
 
     let v = FoldingView()
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        
+
         view.addSubview(v)
-        
-        print(view.layer.anchorPoint)
-        
+    
         v.snp.makeConstraints{
             make in
             

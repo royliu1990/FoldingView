@@ -16,7 +16,7 @@ open class FoldingView: UIView,CAAnimationDelegate {
 
     var animationLayer: CALayer! //展开过程的backview
     
-   var backViewColor: UIColor = UIColor.brown //展开过程种的背景图
+   public var backViewColor: UIColor = UIColor.brown //展开过程种的背景图
     
    private var animationItemLayers: [RotatedLayer]! //折叠图
     
@@ -24,7 +24,7 @@ open class FoldingView: UIView,CAAnimationDelegate {
 
    private var unfolding = false
     
-   open var heights:[CGFloat]!
+   public var heights:[CGFloat]!
     
    private var animating = false
     
