@@ -13,8 +13,7 @@ import SnapKit
 class ViewController: UIViewController,CAAnimationDelegate {
 
     let v = FoldingView()
-    let layer = CALayer()
-    let layer1 = CALayer()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

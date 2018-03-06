@@ -10,9 +10,9 @@ import UIKit
 
 open class FoldingView: UIView,CAAnimationDelegate {
     
-    var containerView: UIView! //展开后的view
+   public var containerView: UIView! //展开后的view
     
-    var foregroundView: UIView! //闭合时的view
+   public var foregroundView: UIView! //闭合时的view
 
     var animationLayer: CALayer! //展开过程的backview
     
@@ -178,7 +178,7 @@ open class FoldingView: UIView,CAAnimationDelegate {
         
     }
     
-    func unfold(){
+   public func unfold(){
         
         if unfolding == true
         {
@@ -223,7 +223,7 @@ open class FoldingView: UIView,CAAnimationDelegate {
   
     }
     
-    func fold(){
+   public func fold(){
         
         
         
